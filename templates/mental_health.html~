@@ -1,0 +1,21 @@
+{% extends "layout_alt2.html" %}
+<!-- TITLE -->
+{% block title %}Mental Health Services{% endblock %}
+
+
+<!-- CONTENT -->
+{% block content %}
+  <h1>Mental Health Services</h1>
+  <p class="important">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/fLbQfMmrISE" frameborder="0" allowfullscreen></iframe>
+
+    <h1>
+    The Department of Psychiatry at the University of Pennsylvania treats psychiatric and behavioral health disorders range from potentially life-threatening disorders, such as schizophrenia, bipolar disorder and severe depression, as well as less debilitating but common conditions, such as anxiety and less severe mood disorders.
+    </h1>
+    <br>
+    <h2>
+    <a href="https://docs.google.com/forms/d/1Az5HMEoyjgUbpRtAhwr0aPAKgMYqoguLslN1AffLiB4/viewform?edit_requested=true">Fill out our survey</a>
+
+    <a href="https://www.pennmedicine.org/for-patients-and-visitors/find-a-program-or-service/behavioral-health">See what Penn has to offer</a>
+    </h2>
+{% endblock %}

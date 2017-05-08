@@ -1,0 +1,22 @@
+{% extends "layout_alt2.html" %}
+<!-- TITLE -->
+{% block title %}Addiction Services{% endblock %}
+
+<!-- CONTENT -->
+{% block content %}
+  <h1>Addiction Services</h1>
+  <p class="important">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/fLbQfMmrISE" frameborder="0" allowfullscreen></iframe>
+
+    <h1>
+    Addiction is defined as persistent use of a substance despite negative consequences. It is a complex disease, the course of which is influenced by the interaction of genetics and environmental factors. Addiction is a chronic and treatable disease.
+
+All of the addiction treatment offered by Penn Behavioral Health is informed by the cutting edge research conducted in the Department of Psychiatry. Patients can elect to receive treatment through one of our excellent clinical programs or, if eligible, may receive treatment as a participant in a research trial at no cost.  Please see below for descriptions of our clinical and research treatment programs.
+    </h1>
+    <br>
+    <h2>
+    <a href="https://docs.google.com/forms/d/1Az5HMEoyjgUbpRtAhwr0aPAKgMYqoguLslN1AffLiB4/viewform?edit_requested=true">Fill out our survey</a>
+
+    <a href="http://www.med.upenn.edu/psychiatry/addiction.html">See what Penn has to offer</a>
+    </h2>
+{% endblock %}

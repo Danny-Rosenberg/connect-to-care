@@ -1,0 +1,30 @@
+{% extends "layout_alt2.html" %}
+<!-- TITLE -->
+{% block title %}Diabetes / Weight Control{% endblock %}
+
+<!-- CONTENT -->
+{% block content %}
+  <h1>Diabetes / Weight Control</h1>
+  <p class="important">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/fLbQfMmrISE" frameborder="0" allowfullscreen></iframe>
+
+    <h1>
+   We know that not all overweight people are the same. Weight problems may result from a variety of factors, including genetics, a slow metabolism, illness, eating or exercise habits, and emotional distress.
+
+We also realize that many overweight persons suffer form serious medical conditions, such as diabetes, high blood pressure, high cholesterol, sleep apnea and joint problems. Thus, we make special efforts to customize our programs to meet an individual's specific needs.
+
+We assess the causes of the weight problem, determine its medical and psychological consequences, and then plan a program accordingly.
+    </h1>
+    <br>
+    <h2>
+    <a href="https://docs.google.com/forms/d/1Az5HMEoyjgUbpRtAhwr0aPAKgMYqoguLslN1AffLiB4/viewform?edit_requested=true">Fill out our survey</a>
+
+    <a href="https://www.pennmedicine.org/for-patients-and-visitors/patient-information/conditions-treated-a-to-z/diabetes">Diabetes Information</a>
+    
+    <a href="http://www.med.upenn.edu/weight/">Center for Weight and Eating Disorders</a>
+    
+    <a href="http://www.med.upenn.edu/weight/ongoing_research.html">Research Studies</a>
+    
+    
+    </h2>
+{% endblock %}
