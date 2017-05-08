@@ -1,12 +1,12 @@
 from flask import Flask, request, render_template, redirect, url_for, flash, session
-from flask_admin import Admin
-from flask_admin.contrib.sqla import ModelView
-from flask_sqlalchemy import SQLAlchemy
+#from flask_admin import Admin
+#from flask_admin.contrib.sqla import ModelView
+#from flask_sqlalchemy import SQLAlchemy
 
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:////tmp/test.db'
-db = SQLAlchemy(app)
-
+#app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:////tmp/test.db'
+#db = SQLAlchemy(app)
+'''
 class User(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     username = db.Column(db.String(80), unique=True)
@@ -18,7 +18,7 @@ class User(db.Model):
 
     def __repr__(self):
         return '<User %r>' % self.username
-
+'''
 #admin = Admin(app, name='fresh', template_mode='bootstrap3')
 
 #admin.add_view(ModelView(User, db.session))
