@@ -1,1 +1,1 @@
-web: python fresh.py
+web: flask run
